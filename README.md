@@ -6,7 +6,7 @@ A Flutter app demonstrating the ExpansionTile widget through an ALU Mini Help Ce
 📱 Widget Description
 ExpansionTile is a Flutter widget that combines a ListTile with an expandable section. When tapped, it toggles between showing and hiding its children widgets. This app uses it to build a help center where each question expands to reveal its answer.
 
-🚀 Run Instructions
+ Run Instructions
 Prerequisites:
 
 Flutter SDK installed (Install Flutter)
@@ -25,7 +25,7 @@ flutter pub get
 # 4. Run the app
 flutter run
 
-🔧 Key Attributes Used
+ Key Attributes Used
 1. title
 The primary widget shown as the tile label — always visible. Used here to display each FAQ question.
 dartExpansionTile(
@@ -50,22 +50,14 @@ dartExpansionTile(
   ],
 ),
 
-🖼️ Screenshot
+ Screenshot
 ![App Screenshot](/screenshot.png)
 
 
 
-Show Image
-
-📁 Project Structure
+ Project Structure
 widget-presentation-/
 ├── lib/
 │   └── main.dart        # HelpCenterApp with three ExpansionTile FAQ items
 ├── pubspec.yaml         # Project dependencies
 └── README.md            # This file
-
- Resources
-
-ExpansionTile API Docs
-Flutter Widget Catalog
-Write your first Flutter app
